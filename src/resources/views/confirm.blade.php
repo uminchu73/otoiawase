@@ -3,7 +3,7 @@
 
     @section('css')
         {{-- index.cssの読み込み --}}
-        <link rel="stylesheet" href="{{ asset('css/index.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/confirm.css') }}" />
     @endsection
 
 @section('content')
@@ -20,7 +20,7 @@
                             お名前
                         </th>
                         <td class="confirm-table__text">
-                            <input type="text" name="'name" value="{{ $contact['name'] }}">
+                            <input type="text" name="name" value="{{ $contact['name'] }}">
                         </td>
                     </tr>
                     <tr class="confirm-table__row">
@@ -28,7 +28,7 @@
                             メースアドレス
                         </th>
                         <td class="confirm-table__text">
-                            <input type="email" name="'email" value="{{ $contact['email'] }}">
+                            <input type="email" name="email" value="{{ $contact['email'] }}">
                         </td>
                     </tr>
                     <tr class="confirm-table__row">
@@ -36,7 +36,7 @@
                             電話番号
                         </th>
                         <td class="confirm-table__text">
-                            <input type="tel" name="'tel" value="{{ $contact['tel'] }}">
+                            <input type="tel" name="tel" value="{{ $contact['tel'] }}">
                         </td>
                     </tr>
                     <tr class="confirm-table__row">
@@ -44,7 +44,7 @@
                             お問い合わせ内容
                         </th>
                         <td class="confirm-table__text">
-                            <input type="text" name="'textarea" value="{{ $contact['textarea'] }}">
+                            <input type="text" name="textarea" value="{{ $contact['textarea'] }}">
                         </td>
                     </tr>
                 </table>
