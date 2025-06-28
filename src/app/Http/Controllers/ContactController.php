@@ -15,7 +15,8 @@ class ContactController extends Controller
 
     public function confirm(ContactRequest $request)
     {
-        
+        $contact = $request->all();
+        return view('confirm', compact('contact'));
     }
 }
 

@@ -1,8 +1,7 @@
 .contact-box {
-    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 8px;
+    max-width: 1230px;
 }
 
 .contact-title {
@@ -12,15 +11,16 @@
 }
 
 .contact-form {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-    justify-content: left;
+    text-align: center;
 }
 
 .contact-form__item {
     padding: 10px 0;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .contact-form__item--label {
@@ -29,7 +29,7 @@
 }
 
 .contact-form__item--label-required {
-    border-radius: 6px;
+    border-radius: 5px;
     margin-right: 8px;
     padding: 8px 0;
     width: 48px;
@@ -59,7 +59,7 @@
     border-radius: 4px;
 }
 
-.contact-form__btn {
+.contact-form__btn-submit {
     border-radius: 6px;
     margin: 32px auto 0;
     padding-top: 16px;
