@@ -16,7 +16,22 @@ class ContactController extends Controller
     public function confirm(ContactRequest $request)
     {
         $contact = $request->all();
+
         return view('confirm', compact('contact'));
     }
+
+    public function store(ContactRequest $request)
+    {
+        $data =$request->validated();
+        Contact::create($data);
+
+        return redirect('/contacts');
+    }
+
+    public function thanks()
+    {
+        return view('thanks');
+    }
+
 }
 

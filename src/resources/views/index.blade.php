@@ -62,7 +62,7 @@
                     <span class="contact-form__item--label">お問合せ内容</span>
                 </div>
                 <div class="contact-form__item--input-box">
-                    <textarea name="textarea" class="contact-form__item--textarea" placeholder="資料をいただきたいです"></textarea>
+                    <textarea name="content" class="contact-form__item--textarea" placeholder="資料をいただきたいです">{{ old('content') }}</textarea>
                 </div>
             </div>
             <div class="contact-form__btn">
