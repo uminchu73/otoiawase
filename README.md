@@ -6,7 +6,7 @@
 ## Usage
 
 ```
-git clone git@github.com:uminchu73/todo.git
+git clone git@github.com:uminchu73/otoiawase.git
 ```
 
 ```
